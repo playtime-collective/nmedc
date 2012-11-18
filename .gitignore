@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+bin/settings.txt
+site/wp-config.php
+site/wp-content/cache/
+site/wp-content/backups/
