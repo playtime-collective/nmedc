@@ -4,3 +4,4 @@ bin/*
 site/wp-config.php
 site/wp-content/cache/
 site/wp-content/backups/
+assets/*
