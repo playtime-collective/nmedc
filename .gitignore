@@ -3,5 +3,5 @@
 bin/*
 site/wp-config.php
 site/wp-content/cache/
-site/wp-content/backups/
+site/wp-content/275f491dd6-backups/
 assets/*
