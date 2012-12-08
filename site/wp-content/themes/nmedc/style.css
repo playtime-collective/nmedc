@@ -341,6 +341,11 @@ header {
   line-height: 13px;
 }
 
+.search-and-social {
+  float: right;
+  margin-top: -60px;
+}
+
 /* NAVIGATION */
 ul#menu-main-menu {
   padding: 0px;
@@ -360,15 +365,22 @@ ul#menu-main-menu li {
   margin: 0px;
 }
 
+ul#menu-main-menu li:last-child {
+  border-right: 1px solid #fff;
+}
+
 ul#menu-main-menu li a {
   color: #DEEED4;
   padding: 10px 10px 8px 10px;
 }
 
-ul#menu-main-menu li a:hover, 
-ul#menu-main-menu li.current-menu-item a {
+ul#menu-main-menu li a:hover {
   background-color: #6ABD45;
   text-decoration: none;
+}
+
+ul#menu-main-menu li.current-menu-item a {
+  background-color: #0c6837;
 }
 
 ul#menu-main-menu ul.sub-menu {

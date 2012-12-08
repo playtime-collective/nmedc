@@ -25,6 +25,9 @@
           <p class="description"><?php echo get_bloginfo( 'description' ) ?></p>
         </a>
       </div>
+      <div class="search-and-social">
+        <?php get_search_form(); ?>
+      </div>
     </div>
     <?php wp_nav_menu( array('menu' => 'main-menu' )); ?>
   </header>
