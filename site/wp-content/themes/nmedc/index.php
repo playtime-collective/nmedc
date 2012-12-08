@@ -17,8 +17,8 @@
           <div class="excerpt-post-date"><?php the_time('F j, Y'); ?></div>
           <div class="excerpt-body"><?php the_excerpt(); ?></div>
         </div>
-
       <?php endwhile; ?>
+      
       <div class="navigation">
         <span class="newer"><?php previous_posts_link(__('« Newer','example')) ?></span> <span class="older"><?php next_posts_link(__('Older »','example')) ?></span>
       </div><!-- /.navigation -->
