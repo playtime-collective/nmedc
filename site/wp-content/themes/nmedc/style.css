@@ -461,6 +461,63 @@ footer {
   background-color: #231F20;
   width: 100%;
   height: 250px;
+  color: #ffffff;
+}
+
+#footer-widgets {
+  padding-top: 40px;
+}
+
+#text-3 {
+  float: left;
+  font-family: "museo_sans_500italic", "Helvetica Neue", Helvetica, arial, sans-serif;
+  width: 500px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10px;
+  margin-right: 40px;
+}
+
+footer h4 {
+  font-family: "museo_300regular", "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-size: 18px;
+  color: #69bd45;
+}
+
+#text-3 a {
+font-family: "museo_700regular", "Helvetica Neue", Helvetica, arial, sans-serif;
+
+}
+
+#text-4 {
+  clear: left;
+  float: left;
+  width: 510px;
+  font-family: "museo_sans_300regular", "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+  margin-right: 40px;
+}
+
+#text-4 h4 {
+  display: none;
+}
+
+#recent-tweets {
+  float: left;
+  width: 220px;
+  margin-top: -146px;
+}
+
+#text-5 {
+  float: left;
+  width: 160px;
+  padding-top: 40px;
+  padding-left: 40px;
+  margin-top: -186px;
+  margin-left: 260px;
+  border-left: 1px solid #fff;
+  height: 210px;
 }
 
 
