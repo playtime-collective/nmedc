@@ -503,18 +503,36 @@ font-family: "museo_700regular", "Helvetica Neue", Helvetica, arial, sans-serif;
   display: none;
 }
 
-#recent-tweets {
+#text-6 {
   float: left;
   width: 220px;
   margin-top: -146px;
 }
 
+#text-6 li {
+  list-style-type: none;
+  font-family: "museo_sans_500regular", "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+
+#text-6 li span.date {
+  font-family: "museo_sans_100regular", "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-size: 10px;
+  display: block;
+}
+
+#text-6 li span.date a {
+  color: #fff;
+}
+
 #text-5 {
-  float: left;
+  float: right;
   width: 160px;
   padding-top: 40px;
   padding-left: 40px;
-  margin-top: -186px;
+  margin-top: -218px;
   margin-left: 260px;
   border-left: 1px solid #fff;
   height: 210px;

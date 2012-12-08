@@ -166,7 +166,7 @@ function get_latest_tweets_html($attributes) {
 	$content = "<ul class='tweets'>\n";
 	foreach ($tweetData as $index => $tweet) {
 		if ($index == $count) break;
-		$content .= "<li>" . format_tweet($tweet["text"]) . " <span class='date'><a href='http://twitter.com/" . $username . "/status/" . $tweet["id_str"] . "'>" . time_ago($tweet["created_at"]) . "</a></span></li>\n";
+		$content .= "<li>" . " <span class='date'><a href='http://twitter.com/" . $username . "/status/" . $tweet["id_str"] . "'>About " . time_ago($tweet["created_at"]) . "</a></span>" . format_tweet($tweet["text"]) . "</li>\n";
 	}
 	$content .= "</ul>\n";
 
