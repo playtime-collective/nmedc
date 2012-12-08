@@ -413,7 +413,7 @@ ul#menu-main-menu li:first-child {
   padding-top: 0px;
 }
 
-ul#menu-main-menu li:first-child a {
+ul#menu-main-menu > li:first-child a {
   background-image: url("images/home.png");
   background-repeat: no-repeat;
   background-position: 47% 50%;
@@ -425,11 +425,11 @@ ul#menu-main-menu li:first-child a {
   width: 33px;
 }
 
-ul#menu-main-menu li:first-child a:hover {
+ul#menu-main-menu > li:first-child a:hover {
   background-image: url("images/home-dark.png");
 }
 
-ul#menu-main-menu li.current-menu-item:first-child a:hover {
+ul#menu-main-menu > li.current-menu-item:first-child a:hover {
   background-image: url("images/home.png");
 }
 
@@ -453,6 +453,30 @@ ul#menu-main-menu li.current-menu-item a {
 
 ul#menu-main-menu ul.sub-menu {
   display: none;
+  background-color: #231F20;
+  position: absolute;
+  margin-top: 8px;
+  z-index: 2000;
+  margin-left: -1px;
+}
+
+ul#menu-main-menu ul.sub-menu li {
+  clear: both;
+  width: 100%;
+  padding: 0px;
+}
+
+ul#menu-main-menu ul.sub-menu li a {
+  width: 100%;
+  display: block;
+}
+
+ul#menu-main-menu ul.sub-menu li a:hover {
+}
+
+ul#menu-main-menu > li:hover ul.sub-menu {
+  display: block;
+  overflow: hidden;
 }
 
 
