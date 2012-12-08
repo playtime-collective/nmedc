@@ -34,7 +34,7 @@ Template Name: Front page
       <div class="home-teaser">
         <h5 class="green-bg">Financial Assistance</h5>
         <p>Development, underwriting, and disbursement of financial assistance to local businesses.</p>
-        <a href="/financial-assistace/" class="read-more">Read More</a>
+        <a href="/financial-assistance/" class="read-more">Read More</a>
       </div>
     
       <div class="home-teaser">
