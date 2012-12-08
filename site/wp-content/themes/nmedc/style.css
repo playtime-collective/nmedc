@@ -409,6 +409,30 @@ ul#menu-main-menu li {
   margin: 0px;
 }
 
+ul#menu-main-menu li:first-child {
+  padding-top: 0px;
+}
+
+ul#menu-main-menu li:first-child a {
+  background-image: url("images/home.png");
+  background-repeat: no-repeat;
+  background-position: 47% 50%;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  height: 14px;
+  width: 33px;
+}
+
+ul#menu-main-menu li:first-child a:hover {
+  background-image: url("images/home-dark.png");
+}
+
+ul#menu-main-menu li.current-menu-item:first-child a:hover {
+  background-image: url("images/home.png");
+}
+
 ul#menu-main-menu li:last-child {
   border-right: 1px solid #fff;
 }
@@ -493,6 +517,24 @@ footer {
   line-height: 20px;
   font-family: "museo_sans_500regular", "Helvetica Neue", Helvetica, arial, sans-serif;
   color: #69BD45;
+}
+
+/* BLOG */
+
+.post-excerpt {
+  border-bottom: 1px solid #d8e5d3;
+  margin-bottom: 25px;
+}
+
+h2.excerpt-title {
+  font-size: 25px;
+}
+
+.excerpt-post-date {
+  font-family: "museo_sans_300italic", "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-size: 12px;
+  line-height: 13px;
+  margin-bottom: 10px;
 }
 
 pre,

@@ -9,8 +9,6 @@
           <p>This is not the page you are looking for.</p>
           <p><strong>Search for your interests:</strong></p>
           <?php get_search_form(); ?>
-          
-        
         </div>
     </section>
     
