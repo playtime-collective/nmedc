@@ -26,6 +26,10 @@
         </a>
       </div>
       <div class="search-and-social">
+        <ul class="social-links">
+          <li class="facebook"><a href="#" target="_blank">facebook</a></li>
+          <li class="twitter"><a href="#" target="_blank">twitter</a></li>
+        </ul>
         <?php get_search_form(); ?>
       </div>
     </div>
