@@ -337,6 +337,7 @@ header {
   font-size: 40px;
   line-height: 40px;
   padding: 0px;
+  font-weight: 500;
 }
 
 .branding p.description {
