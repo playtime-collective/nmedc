@@ -363,6 +363,8 @@ header {
 
 #searchform input {
   padding-left: 10px;
+  height: 30px;
+  margin-top: 2px;
 }
 
 ul.social-links {
@@ -418,7 +420,7 @@ ul#menu-main-menu > li:first-child a {
   background-image: url("images/home.png");
   background-repeat: no-repeat;
   background-position: 47% 50%;
-  text-indent: 100%;
+  text-indent: -999em;
   white-space: nowrap;
   overflow: hidden;
   display: block;
