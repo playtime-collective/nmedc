@@ -408,8 +408,8 @@ ul#menu-main-menu {
   margin-top: 5px;
   border-top: 1px solid #fff;
   padding-left: 280px;
-  font: 12px/15px "museo_sans_700regular", "Helvetica Neue", Helvetica, arial, sans-serif;
-  font-weight: 700;
+  font: 12px/15px "museo_sans_500regular", "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-weight: 500;
   background-color: #231F20;
   height: 32px;
 }
