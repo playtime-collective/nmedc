@@ -450,7 +450,7 @@ ul#menu-main-menu li a:hover {
   text-decoration: none;
 }
 
-ul#menu-main-menu li.current-menu-item a {
+ul#menu-main-menu li.current-menu-item > a {
   background-color: #0c6837;
 }
 
